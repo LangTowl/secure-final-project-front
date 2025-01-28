@@ -10,7 +10,7 @@ import {CommonModule} from '@angular/common';
     CommonModule,
     RouterOutlet,
     MobileViewsModule,
-    DesktopViewsModule
+    DesktopViewsModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

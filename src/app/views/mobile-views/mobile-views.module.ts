@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MobileManagerComponent} from './mobile-manager/mobile-manager.component';
-
-
+import {AuthenticationPageComponent} from './authentication-page/authentication-page.component';
 
 @NgModule({
   declarations: [
@@ -10,10 +9,12 @@ import {MobileManagerComponent} from './mobile-manager/mobile-manager.component'
   ],
   imports: [
     CommonModule,
-    MobileManagerComponent
+    MobileManagerComponent,
+    AuthenticationPageComponent
   ],
   exports: [
-    MobileManagerComponent
+    MobileManagerComponent,
+    AuthenticationPageComponent
   ]
 })
 export class MobileViewsModule { }
